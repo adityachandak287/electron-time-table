@@ -1,0 +1,237 @@
+{
+    "mon": {
+        "theory": [
+            {
+                "slot": "A1",
+                "course_code": "ITE3001",
+                "course_name": "course_name",
+                "location": "SJT105",
+                "start": "08:00",
+                "end": "08:50"
+            },
+            {
+                "slot": "F1",
+                "course_code": "CSE3020",
+                "course_name": "course_name",
+                "location": "SJT606",
+                "start": "09:00",
+                "end": "09:50"
+            },
+            {
+                "slot": "D1",
+                "course_code": "STS3204",
+                "course_name": "course_name",
+                "location": "SJT715",
+                "start": "10:00",
+                "end": "10:50"
+            },
+            {
+                "slot": "TB1",
+                "course_code": "ITE2011",
+                "course_name": "course_name",
+                "location": "SJTG08",
+                "start": "11:00",
+                "end": "11:50"
+            },
+            {
+                "slot": "TG1",
+                "course_code": "ITE1007",
+                "course_name": "course_name",
+                "location": "SJTG05",
+                "start": "12:00",
+                "end": "12:50"
+            },
+            {
+                "slot": "A2",
+                "course_code": "ITE2014",
+                "course_name": "course_name",
+                "location": "SJTG16",
+                "start": "14:00",
+                "end": "14:50"
+            },
+            {
+                "slot": "F2",
+                "course_code": "HUM1037",
+                "course_name": "course_name",
+                "location": "SJT127",
+                "start": "15:00",
+                "end": "15:50"
+            }
+        ],
+        "lab": []
+    },
+    "tue": {
+        "theory": [
+            {
+                "slot": "B1",
+                "course_code": "ITE2011",
+                "course_name": "course_name",
+                "location": "SJTG08",
+                "start": "08:00",
+                "end": "08:50"
+            },
+            {
+                "slot": "G1",
+                "course_code": "ITE1007",
+                "course_name": "course_name",
+                "location": "SJTG05",
+                "start": "09:00",
+                "end": "09:50"
+            },
+            {
+                "slot": "TC1",
+                "course_code": "ITE2006",
+                "course_name": "course_name",
+                "location": "SJTG14",
+                "start": "11:00",
+                "end": "11:50"
+            }
+        ],
+        "lab": [
+            {
+                "slot": "L39",
+                "course_code": "ITE3001",
+                "course_name": "course_name",
+                "location": "SJTG17",
+                "start": "16:00",
+                "end": "16:45"
+            },
+            {
+                "slot": "L40",
+                "course_code": "ITE3001",
+                "course_name": "course_name",
+                "location": "SJTG17",
+                "start": "16:46",
+                "end": "17:30"
+            }
+        ]
+    },
+    "wed": {
+        "theory": [
+            {
+                "slot": "C1",
+                "course_code": "ITE2006",
+                "course_name": "course_name",
+                "location": "SJTG14",
+                "start": "08:00",
+                "end": "08:50"
+            },
+            {
+                "slot": "A1",
+                "course_code": "ITE3001",
+                "course_name": "course_name",
+                "location": "SJT105",
+                "start": "09:00",
+                "end": "09:50"
+            },
+            {
+                "slot": "F1",
+                "course_code": "CSE3020",
+                "course_name": "course_name",
+                "location": "SJT606",
+                "start": "10:00",
+                "end": "10:50"
+            },
+            {
+                "slot": "A2",
+                "course_code": "ITE2014",
+                "course_name": "course_name",
+                "location": "SJTG16",
+                "start": "15:00",
+                "end": "15:50"
+            },
+            {
+                "slot": "F2",
+                "course_code": "HUM1037",
+                "course_name": "course_name",
+                "location": "SJT127",
+                "start": "16:00",
+                "end": "16:50"
+            }
+        ],
+        "lab": []
+    },
+    "thu": {
+        "theory": [
+            {
+                "slot": "D1",
+                "course_code": "STS3204",
+                "course_name": "course_name",
+                "location": "SJT715",
+                "start": "08:00",
+                "end": "08:50"
+            },
+            {
+                "slot": "B1",
+                "course_code": "ITE2011",
+                "course_name": "course_name",
+                "location": "SJTG08",
+                "start": "09:00",
+                "end": "09:50"
+            },
+            {
+                "slot": "G1",
+                "course_code": "ITE1007",
+                "course_name": "course_name",
+                "location": "SJTG05",
+                "start": "10:00",
+                "end": "10:50"
+            }
+        ],
+        "lab": []
+    },
+    "fri": {
+        "theory": [
+            {
+                "slot": "C1",
+                "course_code": "ITE2006",
+                "course_name": "course_name",
+                "location": "SJTG14",
+                "start": "09:00",
+                "end": "09:50"
+            },
+            {
+                "slot": "TA1",
+                "course_code": "ITE3001",
+                "course_name": "course_name",
+                "location": "SJT105",
+                "start": "10:00",
+                "end": "10:50"
+            },
+            {
+                "slot": "TD1",
+                "course_code": "STS3204",
+                "course_name": "course_name",
+                "location": "SJT715",
+                "start": "12:00",
+                "end": "12:50"
+            }
+        ],
+        "lab": [
+            {
+                "slot": "L55",
+                "course_code": "CSE3020",
+                "course_name": "course_name",
+                "location": "SJT216",
+                "start": "14:00",
+                "end": "14:45"
+            },
+            {
+                "slot": "L56",
+                "course_code": "CSE3020",
+                "course_name": "course_name",
+                "location": "SJT216",
+                "start": "14:46",
+                "end": "15:30"
+            }
+        ]
+    },
+    "sat": {
+        "theory": [],
+        "lab": []
+    },
+    "sun": {
+        "theory": [],
+        "lab": []
+    }
+}

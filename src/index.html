@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>VIT Time Table</title>
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body class="bg-light">
+    <div class="flexHeader">
+      <p class="h1 text-center"><strong>Time Table</strong></p>
+    </div>
+
+    <div class="container text-center">
+      <button type="button" class="btn btn-dark" id="setTimeTable">
+        Set Time Table
+      </button>
+      <p class="h5 m-2" id="dayDiv">Monday</p>
+      <!-- <button type="button" class="btn btn-primary" id="hideButton">
+        Hide
+      </button> -->
+    </div>
+    <div id="root"></div>
+    <script src="./timetable.js"></script>
+    <!-- <script>
+      const { fetchData, testStore } = require("./timetable.js");
+      fetchData();
+      testStore();
+    </script> -->
+  </body>
+</html>

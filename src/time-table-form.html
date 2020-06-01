@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Set Time Table</title>
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <!-- <link rel="stylesheet" href="index.css" /> -->
+    <style>
+      #errorBanner,
+      #successBanner {
+        display: none;
+      }
+    </style>
+  </head>
+  <body class="bg-light">
+    <div class="container text-center">
+      <h1 class="text-center mt-2">
+        <strong>VIT Time Table</strong>
+      </h1>
+      <form>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1"
+            >Paste Time Table from VTOP ⬇</label
+          >
+          <div class="alert alert-danger" id="errorBanner">
+            Error while parsing. Please make sure to copy the whole time table
+            correctly.
+            <button
+              type="button"
+              class="close"
+              data-dismiss="alert"
+              aria-label="Close"
+              id="closeErrorBanner"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="alert alert-success" id="successBanner">
+            Successfully parsed data as shown below! You can exit this window.
+            <button
+              type="button"
+              class="close"
+              data-dismiss="alert"
+              aria-label="Close"
+              id="closeSuccessBanner"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <textarea
+            class="form-control"
+            id="exampleFormControlTextarea1"
+            rows="15"
+          ></textarea>
+        </div>
+        <button
+          type="button"
+          class="btn btn-dark btn-block mb-2"
+          id="setTimeTable"
+        >
+          Set Time-Table
+        </button>
+      </form>
+    </div>
+    <script src="./setTimeTable.js"></script>
+  </body>
+</html>
