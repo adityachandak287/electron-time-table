@@ -27,7 +27,7 @@ On clicking on Set Time Table
 
 <img src="screenshots/Set%20Time%20Table%20Window_1.PNG" width="400px" height="300px" alt="Set Time Table Window_1"/>
 
-<img src="screenshots/Set%20Time%20Table%20Window_1.PNG" width="400px" height="300px" alt="Set Time Table Window_2"/>
+<img src="screenshots/Set%20Time%20Table%20Window_2.PNG" width="400px" height="300px" alt="Set Time Table Window_2"/>
 
 Main window once Time Table is set
 
