@@ -16,6 +16,7 @@ npm start
 ```cmd
 npm run package
 ```
+Runnable file will be available in `out` folder.
 
 ## Screenshots
 
