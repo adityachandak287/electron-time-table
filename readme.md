@@ -21,17 +21,17 @@ npm run package
 
 Main window on first launch
 
-<img src="screenshots/Main Window_1.png" height="480px" alt="Main Window_1"/>
+<img src="screenshots/Main%20Window_1.PNG" width="172px" height="480px" alt="Main Window_1"/>
 
 On clicking on Set Time Table
 
-<img src="screenshots/Main Set Time Table Window_1.png" alt="Set Time Table Window_1"/>
+<img src="screenshots/Set%20Time%20Table%20Window_1.PNG" width="400px" height="300px" alt="Set Time Table Window_1"/>
 
-<img src="screenshots/Main Set Time Table Window_2.png" height="480px" alt="Set Time Table Window_2"/>
+<img src="screenshots/Set%20Time%20Table%20Window_1.PNG" width="400px" height="300px" alt="Set Time Table Window_2"/>
 
 Main window once Time Table is set
 
-<img src="screenshots/Main Window_2.png" alt="Main Window_2"/>
+<img src="screenshots/Main%20Window_2.PNG" width="172px" height="480px" alt="Main Window_2"/>
 
 ## To-Do:
 
