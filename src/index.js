@@ -1,7 +1,7 @@
 const { screen, app, BrowserWindow, ipcMain, Menu, Tray } = require("electron");
 const path = require("path");
 
-const iconPath = path.join(__dirname, "..", "static", "icon.png");
+const iconPath = path.join(__dirname, "..", "static", "tray_icon.png");
 
 var windowByName = {};
 // Handle creating/removing shortcuts on Windows when installing/uninstalling.
@@ -52,8 +52,8 @@ const createWindow = () => {
     {
       label: "Quit",
       click: function () {
-        application.isQuiting = true;
-        application.quit();
+        app.isQuiting = true;
+        app.quit();
       },
     },
   ]);

@@ -1,6 +1,6 @@
 {
   "name": "vit-time-table",
-  "productName": "vit-time-table",
+  "productName": "VIT-Time-Table",
   "version": "1.0.0",
   "description": "My Electron application description",
   "main": "src/index.js",
@@ -9,7 +9,11 @@
     "package": "electron-forge package",
     "make": "electron-forge make",
     "publish": "electron-forge publish",
-    "lint": "echo \"No linting configured\""
+    "lint": "echo \"No linting configured\"",
+    "package-mac": "electron-packager . --overwrite --asar --platform=darwin --arch=x64 --icon=assets/icons/mac/icon.icns --prune=true --out=release-builds",
+    "package-win-32": "electron-packager . --overwrite --asar --platform=win32 --arch=ia32 --icon=assets/icons/win/icon.ico --ignore=\"readme.md\" --ignore=\"python_script/\"  --ignore=\"out/\" --prune=true --out=release-builds  --version-string.ProductName=\"VIT Time Table\"",
+    "package-win-64": "electron-packager . --overwrite --asar --platform=win32 --arch=x64 --icon=assets/icons/win/icon.ico --ignore=\"readme.md\" --ignore=\"python_script/\"  --ignore=\"out/\" --prune=true --out=release-builds  --version-string.ProductName=\"VIT Time Table\"",
+    "package-linux": "electron-packager . --overwrite --asar --platform=linux --arch=x64 --icon=assets/icons/png/1024x1024.png --prune=true --out=release-builds"
   },
   "keywords": [],
   "author": {
@@ -19,7 +23,15 @@
   "license": "MIT",
   "config": {
     "forge": {
-      "packagerConfig": {},
+      "packagerConfig": {
+        "ignore": [
+          "out",
+          "release-builds",
+          "readme.md",
+          "python_script"
+        ],
+        "icon": "assets/icons/win/icon.ico"
+      },
       "makers": [
         {
           "name": "@electron-forge/maker-squirrel",
@@ -41,6 +53,18 @@
           "name": "@electron-forge/maker-rpm",
           "config": {}
         }
+      ],
+      "publishers": [
+        {
+          "name": "@electron-forge/publisher-github",
+          "config": {
+            "repository": {
+              "owner": "adityachandak287",
+              "name": "electron-time-table"
+            },
+            "prerelease": false
+          }
+        }
       ]
     }
   },
@@ -54,6 +78,7 @@
     "@electron-forge/maker-rpm": "^6.0.0-beta.50",
     "@electron-forge/maker-squirrel": "^6.0.0-beta.50",
     "@electron-forge/maker-zip": "^6.0.0-beta.50",
-    "electron": "9.0.0"
+    "electron": "9.0.0",
+    "electron-packager": "^14.2.1"
   }
 }
